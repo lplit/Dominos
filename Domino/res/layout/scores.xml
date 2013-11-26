@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              
+              
+>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_bg"
+        android:weightSum="100">
+        <Button
+            android:id="@+buttons/newgameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:text="New game"
+            android:textColor="#7D7D7D"
+            android:onClick="btn_NewGame"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/buttons_new"
+
+      />
+        <Button
+            android:id="@+buttons/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:text="Back"
+            android:textColor="#7D7D7D"
+            android:onClick="btn_Back"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableRight="@drawable/buttons_back"
+      />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+textviews/scoreview_all"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,23 @@
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/gen/domino/rudek/R.java \
+ : /Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/drawable/buttons_back.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/drawable/buttons_bg.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/drawable/buttons_new.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/drawable/draw.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/drawable/ic_launcher.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/drawable/play.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/drawable/scores.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/layout/game.xml \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/layout/main.xml \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/layout/scores.xml \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/layout-land/game.xml \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/layout-land/main.xml \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/layout-land/scores.xml \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/res/values/strings.xml \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/bin/res/drawable/buttons_back.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/bin/res/drawable/buttons_bg.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/bin/res/drawable/buttons_new.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/bin/res/drawable/draw.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/bin/res/drawable/ic_launcher.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/bin/res/drawable/play.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/bin/res/drawable/scores.png \
+/Users/Mike/Dropbox/UPMC/LI260 - Projet Domino/Netbeans/Domino/bin/AndroidManifest.xml \

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LANDSCAPE LAYOUT -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="100"
+>
+
+    <!-- Texts -->
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="0px"
+        android:layout_weight="95"
+        android:weightSum="100"
+        android:orientation="vertical"
+
+    >
+        
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="69"
+            android:fillViewport="true"
+        >
+            <TextView
+                android:id="@+textviews/gameview_board"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+        />
+        </ScrollView>
+    
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_gravity="center"
+            android:layout_weight="13"
+        >
+            <TextView
+                android:id="@+textviews/gameview_output"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#7D7D7D"
+                android:textAlignment="viewStart"
+                android:text="textviews/gameview_output"
+        />
+        </LinearLayout>
+    
+        <!-- At hand layout -->
+        <LinearLayout
+            android:id="@+drawable/gameview_Playable"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="13"
+            android:layout_gravity="bottom"
+        >
+            <TextView
+                android:id="@+textviews/gameview_AtHandText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#7D7D7D"
+                android:textAlignment="viewStart"
+                android:scrollbars="vertical"
+        />
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+        
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:layout_weight="5"
+        android:weightSum="90"
+        android:orientation="vertical"
+
+    >   
+        <Button
+            android:id="@+buttons/playButton"
+            android:text="Play "
+            android:textColor="#7D7D7D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="btnClick_Play"
+            android:drawableTop="@drawable/play"
+            
+            />
+        
+        <Button
+            android:id="@+buttons/drawButton"
+            android:text="Draw "
+            android:textColor="#7D7D7D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="btnClick_Draw"
+            android:drawableTop="@drawable/draw"
+        />
+        
+        <Button
+            android:id="@+buttons/scoresButton"
+            android:text="Scores "
+            android:textColor="#7D7D7D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="btnClick_Scores"
+            android:drawableTop="@drawable/scores"
+            
+        />
+        
+    </LinearLayout>
+    
+</LinearLayout>

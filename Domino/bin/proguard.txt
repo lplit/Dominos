@@ -1,0 +1,33 @@
+# view AndroidManifest.xml #generated:15
+-keep class domino.rudek.GameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class domino.rudek.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class domino.rudek.ScoresActivity { <init>(...); }
+
+# onClick land/res/layout-land/game.xml #generated:95
+# onClick res/layout/game.xml #generated:36
+-keepclassmembers class * { *** btnClick_Draw(...); }
+
+# onClick land/res/layout-land/main.xml #generated:22
+# onClick res/layout/main.xml #generated:23
+-keepclassmembers class * { *** btnClick_Name(...); }
+
+# onClick land/res/layout-land/game.xml #generated:81
+# onClick res/layout/game.xml #generated:23
+-keepclassmembers class * { *** btnClick_Play(...); }
+
+# onClick land/res/layout-land/game.xml #generated:108
+# onClick res/layout/game.xml #generated:48
+-keepclassmembers class * { *** btnClick_Scores(...); }
+
+# onClick land/res/layout-land/scores.xml #generated:38
+# onClick res/layout/scores.xml #generated:28
+-keepclassmembers class * { *** btn_Back(...); }
+
+# onClick land/res/layout-land/scores.xml #generated:25
+# onClick res/layout/scores.xml #generated:15
+-keepclassmembers class * { *** btn_NewGame(...); }
+

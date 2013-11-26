@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Portrait layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="100"
+              
+>
+    
+    
+    <!-- Played layout -->
+    <LinearLayout
+        android:id="@+drawable/gameview_Scores"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_gravity="top"
+        android:layout_weight="30"
+        android:orientation="horizontal"
+        android:background="@drawable/buttons_bg"
+        android:gravity="center"
+    >
+        <Button
+            android:id="@+buttons/playButton"
+            android:text="Play "
+            android:textColor="#7D7D7D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="btnClick_Play"
+            android:drawableLeft="@drawable/play"
+            
+            />
+        
+        <Button
+            android:id="@+buttons/drawButton"
+            android:text="Draw "
+            android:textColor="#7D7D7D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="btnClick_Draw"
+            android:drawableLeft="@drawable/draw"
+        />
+        
+        <Button
+            android:id="@+buttons/scoresButton"
+            android:text="Scores "
+            android:textColor="#7D7D7D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="btnClick_Scores"
+            android:drawableLeft="@drawable/scores"
+        />
+    </LinearLayout>
+        
+    <!-- Board layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:layout_weight="66"
+        android:fillViewport="true"
+    >
+        <TextView
+            android:id="@+textviews/gameview_board"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+        />
+    </ScrollView>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        
+    >
+        <TextView
+            android:id="@+textviews/gameview_output"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#7D7D7D"
+            android:textAlignment="viewStart"
+            android:maxLines = "2"
+            android:text="textviews/gameview_output"
+        />
+    </LinearLayout>
+    
+    <!-- At hand layout -->
+    <LinearLayout
+        android:id="@+drawable/gameview_Playable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="bottom"
+    >
+        <TextView
+            android:id="@+textviews/gameview_AtHandText"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#7D7D7D"
+            android:maxLines = "2"
+            android:textAlignment="viewStart"
+            android:scrollbars="vertical"
+        />
+    </LinearLayout>
+    
+    
+    
+</LinearLayout>
